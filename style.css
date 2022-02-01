@@ -1,0 +1,99 @@
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-family: "Zen Kurenaido", sans-serif;
+}
+body {
+  background-color: lightblue;
+  max-height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+}
+input {
+  padding: 4px;
+  box-shadow: 2px 2px 5px rgb(200, 196, 196);
+  border: 1px solid rgb(255, 255, 255);
+  height: 40px;
+  width: 280px;
+  font-size: 20px;
+  padding: 0;
+}
+input:focus {
+  border-color: green;
+}
+button {
+    font-weight: 800;
+    letter-spacing: 1px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: limegreen;
+  padding: 12px;
+  border: none;
+  height: 43px;
+  margin-left: 8px;
+  box-shadow: 2px 2px 5px rgb(200, 196, 196);
+}
+.container {
+  box-sizing: border-box;
+  margin-inline: auto;
+  max-width: 60%;
+  max-height: 60vh;
+  padding: 16px;
+  background-color: whitesmoke;
+  border-radius: 16px;
+  box-shadow: 4px 4px 5px grey;
+  overflow-y: scroll;
+}
+h1 {
+    letter-spacing: 2px;
+  font-weight: 900;
+  text-align: center;
+}
+p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+}
+.input {
+    position: sticky;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+li {
+    letter-spacing: 1px;
+  font-weight: 600;
+  box-sizing: border-box;
+  padding: 8px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: white;
+  list-style: none;
+  text-align: center;
+  box-shadow: 5px 1px 5px black;
+}
+.heading {
+  text-decoration: underline;
+}
+footer {
+    top: 577px;
+    position: fixed;
+    display: block;
+  margin-top: auto;
+  box-sizing: border-box;
+  padding: 8px;
+  background-color: white;
+  margin-inline: 0;
+  width: 100%;
+}
+.copy {
+    text-decoration: grey;
+  font-weight: 900;
+}
