@@ -38,13 +38,14 @@ button {
 .container {
   box-sizing: border-box;
   margin-inline: auto;
+  min-height: 45vh;
   max-width: 60%;
   max-height: 60vh;
   padding: 16px;
   background-color: whitesmoke;
   border-radius: 16px;
   box-shadow: 4px 4px 5px grey;
-  overflow-y: scroll;
+  overflow-y:auto;
 }
 h1 {
     letter-spacing: 2px;
@@ -83,15 +84,16 @@ li {
   text-decoration: underline;
 }
 footer {
-    top: 577px;
+    top: 584px;
     position: fixed;
     display: block;
   margin-top: auto;
   box-sizing: border-box;
-  padding: 8px;
+  padding: 4px;
   background-color: white;
   margin-inline: 0;
   width: 100%;
+  color: rgb(141, 144, 146);
 }
 .copy {
     text-decoration: grey;
