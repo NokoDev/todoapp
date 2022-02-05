@@ -69,16 +69,18 @@ ul {
   gap: 8px;
 }
 li {
+  display: flex;
+  justify-content: space-between;
     letter-spacing: 1px;
   font-weight: 600;
   box-sizing: border-box;
   padding: 8px;
-  height: 40px;
+  min-height: 40px;
   border-radius: 4px;
   background-color: white;
   list-style: none;
   text-align: center;
-  box-shadow: 5px 1px 5px black;
+  box-shadow: 1px 1px 2px black;
 }
 .heading {
   text-decoration: underline;
@@ -98,4 +100,12 @@ footer {
 .copy {
     text-decoration: grey;
   font-weight: 900;
+}
+#import{
+  font-weight: 900;
+  color: red;
+  padding: 2px;
+  border: none;
+  box-shadow: 1px 1px 4px rgb(195, 179, 179);
+  cursor: pointer;
 }

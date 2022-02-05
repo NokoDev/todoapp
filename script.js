@@ -35,6 +35,14 @@ list.addEventListener("dblclick", (e)=>{
     e.target.remove()
 })
 
+const mark = document.getElementById("import")
+
+mark.addEventListener("click", (e) => {
+
+  console.log("clicked marked")
+  e.stopPropagation()
+})
+
 // const li_s = document.querySelectorAll("li")
 
 // for(item of li_s){
